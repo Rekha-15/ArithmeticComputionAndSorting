@@ -5,5 +5,9 @@ read a
 echo "Enter the second number: "
 read b
 echo "Enter the third number: "
-read b
-Echo " The values are $a $b $c "
+read c
+echo "First Number:$a"
+echo "Second Number:$b"
+echo "Third Number:$c"
+result1=$(($a+($b*$c)))
+echo "$result1"
