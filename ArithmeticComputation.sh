@@ -9,5 +9,5 @@ read c
 echo "First Number:$a"
 echo "Second Number:$b"
 echo "Third Number:$c"
-result2=$((($a*$b)+$c))
-echo "$result1"
+result3=$(($c+($a/$b)))
+echo "$result3"
