@@ -1,4 +1,4 @@
-#!/bin/bash -x
+!#!/bin/bash -x
 echo " Welcome to the ArithmeticComputation"
 echo "Enter the first Number: "
 read a
@@ -10,4 +10,4 @@ echo "First Number:$a"
 echo "Second Number:$b"
 echo "Third Number:$c"
 result3=$(($c+($a/$b)))
-echo "$result3"
+echo "$result4"
