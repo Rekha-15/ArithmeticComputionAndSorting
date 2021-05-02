@@ -5,5 +5,5 @@ read a
 echo "Enter the second number: "
 read b
 echo "Enter the third number: "
-read b
+read c
 Echo " The values are $a $b $c "
